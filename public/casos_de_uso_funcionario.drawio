@@ -1,0 +1,47 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.3">
+  <diagram name="Página-1" id="h7FnJrbRknCwv7zudEn6">
+    <mxGraphModel dx="653" dy="374" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="SnPKL5ThvRbzZLtmjMio-1" target="SnPKL5ThvRbzZLtmjMio-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-10" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="SnPKL5ThvRbzZLtmjMio-1" target="SnPKL5ThvRbzZLtmjMio-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-11" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="SnPKL5ThvRbzZLtmjMio-1" target="SnPKL5ThvRbzZLtmjMio-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-13" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;" edge="1" parent="1" source="SnPKL5ThvRbzZLtmjMio-1" target="SnPKL5ThvRbzZLtmjMio-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-1" value="Usuário&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;html=1;verticalLabelPosition=bottom;verticalAlign=top;align=center;" vertex="1" parent="1">
+          <mxGeometry x="120" y="120" width="90" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-2" value="Cadastrar Funcionário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="70" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-3" value="Consultar Funcionário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="290" y="150" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-4" value="Atualizar Funcionário" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="240" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-5" value="Deletar&lt;span style=&quot;background-color: initial;&quot;&gt;&amp;nbsp;Funcionário&lt;/span&gt;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="95" y="410" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-7" value="Solicitar Confirmação de Exclusão" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="330" width="140" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="SnPKL5ThvRbzZLtmjMio-14" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="edgeStyle=none;html=1;endArrow=open;verticalAlign=bottom;dashed=1;labelBackgroundColor=none;rounded=0;" edge="1" parent="1" source="SnPKL5ThvRbzZLtmjMio-5" target="SnPKL5ThvRbzZLtmjMio-7">
+          <mxGeometry x="-0.252" y="11" width="160" relative="1" as="geometry">
+            <mxPoint x="170" y="430" as="sourcePoint" />
+            <mxPoint x="330" y="430" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
