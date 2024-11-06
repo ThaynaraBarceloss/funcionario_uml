@@ -9,6 +9,10 @@ const porta = 5500
 app.use(express.urlencoded({ extended: true }))
 app.use(express.json())
 
+//CONFIGURANDO O HANDLEBARS
+app.engine("handlebars", handlebars.engine({extended: true}))
+app.set('view engine' , 'handlebars') // definindo o handlebars como mecanismo de visualização padrão
+
 // CARREGAR AS ROTAS 
 const funcionarioRouter = require('./routes/funcionario')
 
@@ -17,7 +21,9 @@ app.use('/funcionario', funcionarioRouter)
 
 //EXIBINDO INFORMAÇÕES NA TELA
 app.get('/', (req, res) =>{
-    res.send("<h1> Tudo Funcionando</h1>")
+    //res.send("<h1> Tudo Funcionando</h1>")
+    res.render('home')
+
 }) 
 
 
